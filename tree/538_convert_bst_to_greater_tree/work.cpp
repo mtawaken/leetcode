@@ -23,6 +23,10 @@ struct TreeNode {
     TreeNode *right;
     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
+
+/**
+ * Note use variable outside inorder structure is also possible(Recommand).
+ */
 class Solution {
 public:
     TreeNode* convertBST(TreeNode* root) {
