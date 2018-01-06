@@ -36,7 +36,7 @@ public:
     /*
      * 拿出所有的数比较间隔最小的
      */
-    int getMinimumDifference(TreeNode* root) {
+    int getMinimumDifference3(TreeNode* root) {
         std::vector<int> vec;
         dfs(root, vec);
         std::sort(vec.begin(), vec.end());
@@ -52,6 +52,13 @@ public:
        vec.push_back(root->val);
        dfs(root->left, vec);
        dfs(root->right, vec);
+    }
+    void dfs2 (TreeNode* root) {
+
+
+    }
+    int getMinimumDifference3(TreeNode* root) {
+        
     }
 };
 
