@@ -18,6 +18,7 @@ struct TreeNode {
 
 /*
  * LCA in bst is easier.
+ * PS: general tree LCA is union-find problem
  */
 class Solution {
 public:
